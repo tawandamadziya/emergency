@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+        }
+
+        .map {
+            position: relative;
+            width: 35%;
+            height: 850px;
+            background-color: rgba(88, 163, 12, 0.856);
+            margin: 1% 0 0 15%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 350px;
+            /* filter: invert(100%); */
+        }
+
+
+        .police {
+            background-color: rgb(61, 190, 233);
+            color: rgb(244, 3, 3);
+            border: 5px solid rgb(233, 81, 81);
+            height: 120px;
+            width: 110px;
+            margin: 10%;
+            border-radius: 100%;
+
+        }
+
+        .fire {
+            background-color: rgb(61, 190, 233);
+            color: rgb(244, 3, 3);
+            border: 5px solid rgb(233, 81, 81);
+            height: 120px;
+            width: 110px;
+            margin: 10%;
+            border-radius: 100%;
+        }
+
+        .ambulance {
+            background-color: rgb(61, 190, 233);
+            color: rgb(244, 3, 3);
+            border: 5px solid rgb(233, 81, 81);
+            height: 120px;
+            width: 110px;
+            margin: 10%;
+            border-radius: 100%;
+        }
+
+        .police:hover {
+            border: 9px solid rgb(61, 190, 233);
+            height: 130px;
+            width: 120px;
+            border-radius: 100%;
+        }
+
+        .fire:hover {
+            border: 9px solid rgb(61, 190, 233);
+            height: 130px;
+            width: 120px;
+            border-radius: 100%;
+        }
+
+        .ambulance:hover {
+            border: 9px solid rgb(61, 190, 233);
+            height: 130px;
+            width: 120px;
+            border-radius: 100%;
+        }
+
+        @media screen and (max-width: 600px) {
+            .police {
+                background-color: rgb(61, 190, 233);
+                color: rgb(244, 3, 3);
+                border: 5px solid rgb(233, 81, 81);
+                height: 80px;
+                width: 70px;
+                margin: 5%;
+                border-radius: 100%;
+            }
+
+            .fire {
+                background-color: rgb(61, 190, 233);
+                color: rgb(244, 3, 3);
+                border: 5px solid rgb(233, 81, 81);
+                height: 80px;
+                width: 70px;
+                margin: 5%;
+                border-radius: 100%;
+            }
+
+            .ambulance {
+                background-color: rgb(61, 190, 233);
+                color: rgb(244, 3, 3);
+                border: 5px solid rgb(233, 81, 81);
+                height: 80px;
+                width: 70px;
+                margin: 5%;
+                border-radius: 100%;
+            }
+
+            .police:hover {
+                border: 9px solid rgb(61, 190, 233);
+                height: 100px;
+                width: 90px;
+                border-radius: 100%;
+            }
+
+            .fire:hover {
+                border: 9px solid rgb(61, 190, 233);
+                height: 100px;
+                width: 90px;
+                border-radius: 100%;
+            }
+
+            .ambulance:hover {
+                border: 9px solid rgb(61, 190, 233);
+                height: 100px;
+                width: 90px;
+                border-radius: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <div>
+                <h1>Eclipsus SOS</h1>
+            </div>
+            <div>
+                <p>Are you in an emergency? the get hold of any one</p>
+                <p>of the respected departments by clicking one of </p>
+                <p>the images below!</p>
+            </div>
+            <div>
+                <img class="police" src="P2.jpeg">
+                <img class="fire" src="wlHzzZi-.jpeg">
+                <img class="ambulance" src="R.jpeg">  
+            </div>
+        </center>
+    </div>
+    <center>
+        <div>
+            <video src="videoplayback (1).mp4" min-width="300px;" height="266px" muted  autoplay loop="infinite"></video>
+        </div>
+    </center>
+    <div class="maps">
+        <center><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26466.686672177468!2d18.435503643345914!3d-33.98390665709565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc42c52081a7cb%3A0x79fbdc90a0e82eac!2sClaremont%2C%20Cape%20Town%2C%207708!5e0!3m2!1sen!2sza!4v1663318045807!5m2!1sen!2sza"
+                width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    </div>
+
+</body>
+
+</html>
